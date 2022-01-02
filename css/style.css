@@ -197,17 +197,18 @@ input::placeholder {
 }
 
 
+/* info text */
+
 #info-text {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 30px 0;
 }
 
 .fa-info {
     height: 20px;
-    width: 20px;
+    width: 25px;
     color: var(--main-color);
-    background-color: var(--secondary-color);
     border: 3px solid var(--bg-color);
     border-radius: 100%;
     display: flex;
@@ -292,20 +293,17 @@ input::placeholder {
 /* most popular */
 
 #most-popular {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
     background-color: var(--bg-color);
     border-radius: 20px;
-    width: 30%;
+    width: 33%;
+    margin: 0 auto;
 }
 
 #most-popular header {
     display: flex;
     justify-content: space-between;
     flex-basis:100%;
-    margin: auto 0px 30px 12px;
+    margin: 30px 0px 30px 12px;
     font-size: large;
     font-weight: bold;
     max-height: 21px;
