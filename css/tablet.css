@@ -1,0 +1,86 @@
+@media screen and (max-width: 992px) {
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* header */
+
+.top {
+    width: 80%;
+}
+
+.top nav {
+    font-size: 26px;
+
+}
+
+.top nav a {
+    margin: 20px;
+    border-top: none;
+    border-bottom: 3px solid #D3D3D3;
+    width: 50%;
+}
+
+.search-container {
+    margin: 30px;
+}
+
+
+/* hosting */
+
+#main-section {
+    flex-direction: column-reverse;
+}
+    
+#most-popular {
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#hosting-main {
+    width: 90%;
+}
+    
+#main-section figcaption {
+    font-size: 22px;
+}
+
+/* activities */
+
+#activities #display-two-second {
+    flex-direction: row ;
+}
+
+#activity5-card img {
+    height: 170px;
+    width: 230px;
+}
+
+/* footer */
+
+.footer-box {
+    padding: 10px 20px 0 20px;
+    margin: 80px 0 0 0;
+}
+
+footer #text-container-left, #text-container-middle {
+    margin-right: 35px;
+}
+
+footer ul li {
+    font-size: 22px;
+    opacity: 70%;
+}
+
+}
+

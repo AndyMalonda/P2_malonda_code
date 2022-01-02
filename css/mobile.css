@@ -1,0 +1,218 @@
+@media screen and (max-width: 768px) {
+
+body {
+    font-size: 24px;
+}
+
+p {
+    color: black;
+}
+
+header, main {
+    padding: 0;
+    margin: 0:
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    
+.top #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+}
+
+.top nav {
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top nav a {
+    padding-bottom: 15px;
+    margin: 0;
+    border-top: none;
+    border-bottom: 3px solid #D3D3D3;
+    width: 100%;
+}
+
+.top nav a.active {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+#page-header h1 {
+    text-align: center;
+    font-size: 46px;
+    margin: 50px;
+}
+
+#page-header p {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/* search part */
+
+.search-container {
+    margin-left: 120px;
+}
+
+.search-container button {
+    display: none;
+}
+
+.search-container .fa-search {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 15px;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.search-container input {
+    width: 280px;
+    height: 80px;
+}
+
+.search-container i {
+    width: 80px;
+    font-size: 28px;
+}
+
+.search-container input::placeholder {
+    font-size: 26px;
+}
+
+/* filters part */
+
+.filters-box, .filters-box i {
+    min-height: 75px;
+    min-width: 75px;
+    font-size: 26px;
+}
+
+/* main part */
+
+#main-section {
+    width: 100%;
+}
+
+#main-section header {
+    font-size: 28px;
+}
+
+.card-caption {
+    margin-top: 20px;
+}
+
+/* main part - most popular */
+
+#most-popular {
+    width: 100%;
+    background-color: var(--bg-color);
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+    
+#most-popular header {
+    padding-left: 45px;
+
+}
+
+#most-popular .card {
+    min-height: 220px;
+}
+
+#most-popular .cards-container{
+    flex-direction: row;
+}
+
+#most-popular .card img {
+    min-width: 190px;
+}
+
+#most-popular .card i {
+    margin-top: 60px;
+}
+
+/* main part - hosting-main */
+
+
+#hosting-main {
+    flex-direction: column;
+    background-color: white;
+    align-content: center;
+    margin: auto;
+}
+
+#hosting-main .card {
+    width: 90%;
+}
+
+#hosting-main .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* activities */
+
+#activities header {
+    flex-basis:100%;
+    margin: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#activities .cards-container {
+    flex-direction: column;
+}
+
+#activities #display-two-second {
+    flex-direction: column ;
+}
+
+#activities .display-one, .display-two {
+    width: 90%;
+}
+
+#activities .card {
+    width: 100%;
+    margin: auto;
+}
+
+#activities img {
+    height: 160px;
+    width: 100%;
+}
+
+/* footer */
+
+.footer-box {
+    flex-direction: column;
+}
+
+footer ul li {
+    font-size: 24px;
+    opacity: 100%;
+}
+
+footer ul {
+    line-height: 50px;
+}
+
+}
