@@ -247,6 +247,10 @@ input::placeholder {
     margin: 30px 0px 40px 12px;
 }
 
+#hosting-main h4:hover {
+    cursor: pointer;
+}
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
