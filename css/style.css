@@ -242,7 +242,7 @@ input::placeholder {
     font-weight: bold;
 }
 
-#hosting-main h3 {
+#hosting-main h4 {
     flex-basis:100%;
     margin: 30px 0px 40px 12px;
 }
@@ -286,10 +286,6 @@ input::placeholder {
     align-content: center;
 }
 
-#hosting-main figcaption {
-    font-weight: bold;
-}
-
 /* most popular */
 
 #most-popular {
@@ -324,7 +320,7 @@ input::placeholder {
 
 #most-popular .card {
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     background-color: white;
     cursor: pointer;
     width: 95%;
@@ -333,14 +329,18 @@ input::placeholder {
     box-shadow: 0px 10px 15px 5px #9f9f9f;
 }
 
+#most-popular .card .card-caption {
+line-height: normal;
+}
+
 #most-popular .card:hover {
     background-color: var(--secondary-color);
 }
 
-#most-popular figcaption {
+#most-popular h3 {
     font-weight: bold;
     margin: 10px 10px 10px auto;
-    line-height: 15px;
+    line-height: normal;
 }
 
 #most-popular .card img {
@@ -400,7 +400,8 @@ input::placeholder {
     background-color: var(--secondary-color);
 }
 
-#activities figcaption {
+#activities h3 {
+    font-size: 16px;
     font-weight: bold;
     margin: 10px 0 15px 10px;
 }

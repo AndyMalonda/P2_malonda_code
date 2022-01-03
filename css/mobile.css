@@ -141,12 +141,16 @@ p#info-text {
     min-height: 220px;
 }
 
-#most-popular .cards-container{
+#most-popular .cards-container {
     flex-direction: row;
 }
 
 #most-popular .card img {
     min-width: 190px;
+}
+
+#most-popular .card .card-caption {
+    margin-top: auto;
 }
 
 #most-popular .card i {
@@ -172,6 +176,7 @@ p#info-text {
     max-width: 605px;
     height: 200px;
     object-fit: cover;
+    margin: 0;
 }
 
 /* activities */
