@@ -127,9 +127,8 @@ input::placeholder {
     border: none;
     outline: none;
     min-height: 50px;
-    min-width: 50px;
     text-align: center;
-    margin-right: 50px;
+    width: 60%;
 }
 
 .search-container input::placeholder {
@@ -201,20 +200,25 @@ input::placeholder {
 
 #info-text {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
+    flex-direction: row;
     margin: 30px 0;
 }
 
 .fa-info {
     height: 20px;
-    width: 25px;
+    width: 20px;
     color: var(--main-color);
-    border: 3px solid var(--bg-color);
-    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+}
+
+.icon-border {
+    height: 25px;
+    width: 25px;
+    border: 2px solid silver;
+    border-radius: 50%;
 }
 
 /* main */
@@ -223,13 +227,14 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: stretch;
     flex-direction: row;
 }
 
 #hosting-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--bg-color);
     border-radius: 20px;
     width: 65%;
@@ -328,7 +333,7 @@ input::placeholder {
     background-color: white;
     cursor: pointer;
     width: 95%;
-    height: 160px;
+    height: 170px;
     border-radius: 20px;
     box-shadow: 0px 10px 15px 5px #9f9f9f;
 }

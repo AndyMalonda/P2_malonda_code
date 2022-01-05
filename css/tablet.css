@@ -39,6 +39,8 @@ h3 {
 
 #main-section {
     flex-direction: column-reverse;
+    align-content: center;
+    align-items: center
 }
     
 #most-popular {
@@ -49,10 +51,11 @@ h3 {
 
 #hosting-main {
     width: 90%;
+    justify-content: center;
 }
-    
+
 #main-section h3 {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /* activities */

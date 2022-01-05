@@ -69,7 +69,8 @@ p#info-text {
 /* search part */
 
 .search-container {
-    margin-left: 120px;
+    width: 90%;
+    justify-content: center;
 }
 
 .search-container button {
@@ -87,7 +88,6 @@ p#info-text {
 }
 
 .search-container input {
-    width: 280px;
     height: 80px;
 }
 
@@ -106,6 +106,12 @@ p#info-text {
     min-height: 75px;
     min-width: 75px;
     font-size: 26px;
+}
+
+/* text-info */
+
+.fa-info {
+    font-size: 15px;
 }
 
 /* main part */
@@ -172,11 +178,11 @@ p#info-text {
 }
 
 #hosting-main .card img {
-    width: 100%;
+    width: 97%;
     max-width: 605px;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
-    margin: 0;
+    margin: 8px;
 }
 
 /* activities */
